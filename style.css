@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    text-align: center;
+    background-color: goldenrod;
+    color: white;
+    font-size: 30px;
+}
+
+#h1{
+    padding: 10px;
+}
