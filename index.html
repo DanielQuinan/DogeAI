@@ -10,9 +10,36 @@
     <body>
         
             <div class="header">
-                <h1 id='h1'>DogeAI</h1>
+                <h1 style="padding: 10px;">DogeAI</h1>
                 <img src="dogeheader.png" id="dogeheader" alt="imagem do doge" height="100px">
-                <p id='p1'>Such Wisdom</p>
+                <p style="padding: 5px;">Such Wisdom</p>
+            </div>
+            <div class="slide-cotainer">
+
+                <div class="slide fade"> <!--Imagem um-->
+                    <img src="dogecoin.jpg" style="width:100%;" height="670px;">
+                    <div class="slide-text">Lorem ipsum, dolor sit</div>
+                </div>
+
+                <div class="slide fade"> <!--Imagem dois-->
+                    <img src="dogeimg2.jpg" style="width:100%;" height="670px;">
+                    <div class="slide-text">Lorem ipsum, dolor sit</div>
+                </div>
+
+                <div class="slide fade"> <!--Imagem três-->
+                    <img src="openai.png" style="width: 100%;" height=670px;>
+                    <div class="slide-text">Lorem ipsum, dolor sit</div>
+                </div>
+                <!--Botões de aterior e próximo-->
+                <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlide(1)">&#10095;</a>
+            </div>
+            <br>
+            <!--Os ciruclos utilizados para navegação-->
+            <div style="text-align:center">
+                <span class="dot" onclick="slideAtual(1)"></span>
+                <span class="dot" onclick="slideAtual(2)"></span>
+                <span class="dot" onclick="slideAtual(3)"></span>
             </div>
     </body>
     <script src="script.js"></script>
