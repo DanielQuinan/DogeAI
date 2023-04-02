@@ -6,6 +6,8 @@
 
 body{
     font-family: 'Courier New', Courier, monospace;
+    width: 100vw;
+    height: 100vh;
 }
 /* Cabeçalho do site */
 .header{
@@ -83,4 +85,37 @@ body{
 @keyframes fade {
     from {opacity: 0.4}
     to {opacity: 1}
+}
+
+.chat{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+textarea {
+    resize: none;
+    padding: 8px;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: black;
+    background-color: lightyellow;
+    color: black;
+    font-size: 20px;
+}
+.dogebg {position: absolute;
+    margin: auto;
+    margin-bottom: 200px;
+    z-index: 200;
+    opacity: 60%;
+    }
+
+.loader{
+    background-image: url("https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
 }
