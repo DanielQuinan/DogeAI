@@ -36,7 +36,7 @@ receberPergunta.addEventListener("keypress", (e)=>{
     enviarPergunta();
 });
 
-const CHAVE_API = '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'
+const CHAVE_API = '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'
 
 function enviarPergunta(){
     const ePergunta = receberPergunta.value;
