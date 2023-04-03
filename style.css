@@ -50,16 +50,6 @@ body{
 .prev:hoover, .next:hoover {
     background-color: rgba(0,0,0,0.8)
 }
-/* Texto de legenda dos slides */
-.slide-text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
 /* Os pontos de navegação */
 .dot {
     cursor: pointer;
@@ -86,7 +76,7 @@ body{
     from {opacity: 0.4}
     to {opacity: 1}
 }
-
+/* Estilo do chat e das textareas */
 .chat{
     margin-top: 20px;
     display: flex;
@@ -96,7 +86,7 @@ body{
     margin: auto;
 }
 #resposta, #pergunta {
-    width: 70%;
+    width: 85%;
 }
 
 textarea {
@@ -109,13 +99,14 @@ textarea {
     color: black;
     font-size: 20px;
 }
+/* Estilo da foto de fundo do chat */
 .dogebg {position: absolute;
     margin: auto;
     margin-bottom: 200px;
     z-index: 200;
     opacity: 60%;
     }
-
+/* background no chat que exibe carregamento do site */
 .loader{
     background-image: url("loading.gif");
     background-repeat: no-repeat;
