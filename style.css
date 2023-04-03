@@ -95,6 +95,9 @@ body{
     justify-content: space-around;
     margin: auto;
 }
+#resposta, #pergunta {
+    width: 70%;
+}
 
 textarea {
     resize: none;
