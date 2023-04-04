@@ -36,7 +36,7 @@ receberPergunta.addEventListener("keypress", (e)=>{
     enviarPergunta();
 });
 
-const CHAVE_API = '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'
+const CHAVE_API = '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'
 
 function enviarPergunta(){
     const ePergunta = receberPergunta.value;
@@ -64,7 +64,7 @@ function enviarPergunta(){
             resultado.value += `Error: ${json.error.message}`
         } else if (json.choices?.[0].text) {
             var text = json.choices[0].text || "Sem Resposta";
-            resultado.value += "Chat GPT: " + text;
+            resultado.value += "Doge: " + text;
         }
         resultado.scrollTop = resultado.scrollHeight;
     })
@@ -81,7 +81,7 @@ function enviarPergunta(){
 
 
     if (resultado.value) resultado.value += "\n\n\n";
-    resultado.value += `Usuário: ${ePergunta}`
+    resultado.value += `Aprendiz: ${ePergunta}`
     receberPergunta.classList.add('loader');
     document.getElementById("dogebg").src = dogebg.src.replace("dogebg.png", "dogebg2.png");
     document.getElementById("pergunta").disabled = true;
